@@ -7,7 +7,7 @@ IT is a comprehensive data-driven strategy project designed to guide an air puri
 presentation.mp4 video is an overall execution and presentation of this project
 
 ⚙️ The Data Engineering Pipeline (My Workflow)
-The project follows a rigorous 4-stage analytical pipeline to ensure the "Single Version of Truth."
+The project follows a  4-stage analytical pipeline to ensure the "Single Version of Truth."
 
 1. Extraction & Pre-processing (Python / Jupyter)
 Raw datasets were often inconsistent, containing null values and non-standardized units. I used Python (Pandas, NumPy) in a Jupyter environment to perform:
@@ -27,17 +27,17 @@ Fact Tables: Fact_AQI, Fact_Health_Impact.
 
 Dimension Tables: Dim_City, Dim_Date, Dim_Pollutants, Dim_Competitors.
 
-Multi-Select Logic: Used Power Query (M Language) to split "Multi-Select" survey responses (where users checked multiple health issues) into individual rows to ensure accurate counting and visualization.
+Multi-Select Logic: Used Power Query (M Language) to split "Multi Select" survey responses (where users checked multiple health issues) into individual rows to ensure accurate counting and visualization.
 
 3. Research & Secondary Analysis
 To solve the complex secondary questions, I integrated external research and additional datasets:
 
-Demographic Census: Overlaid population density and age-group data with pollution hotspots.
+Demographic Census: Overlaid population density and age group data with pollution hotspots.
 
-Competitor Benchmarking: Conducted online research on brands like Dyson, Philips, and Xiaomi to build a Competitive Feature-Gap Matrix.
+Competitor Benchmarking: Conducted online research on brands like Dyson, Philips,and Xiaomi to build a Competitive Feature-Gap Matrix.
 
 📊 Key Dashboard Insights
-The final 6-page report provides actionable answers to primary and secondary business questions:
+The final 6 page report provides actionable answers to primary and secondary business questions:
 
 Regional Hotspots: Identified the Top 5/Bottom 5 polluted areas and analyzed Weekday vs. Weekend fluctuations.
 
@@ -45,10 +45,10 @@ Health Correlation: Mapped AQI spikes to respiratory illnesses (Asthma, Bronchit
 
 Consumer Awareness: Processed primary survey data to reveal the "Awareness-Action Gap" in the Indian public.
 
-Winning Strategy: Concluded with a final roadmap recommending a ₹12,999 target price and a focus on Sensor Accuracy—the #1 gap in current rival products.
+Winning Strategy: Concluded with a final roadmap recommending a ₹12,999 target price and a focus on Sensor Accuracy the #1 gap in current rival products.
 
 🛠️ Technical Stack & Skills
-Languages: Python (Pandas, NumPy, BeautifulSoup), DAX (Data Analysis Expressions), Power Query (M).
+Languages: Python (Pandas, NumPy), DAX (Data Analysis Expressions), Power Query (M).
 
 Tools: Jupyter Notebook, Power BI Desktop, MySQL Workbench.
 
